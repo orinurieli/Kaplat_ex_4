@@ -2,9 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const path = require('path');
-const cors = require('cors')
 
-// ! you should use CORS if the port of the client is different from the server.
+// ! use CORS if the port of the client is different from the server.
 // const cors = require('cors');
 
 const app = express();
