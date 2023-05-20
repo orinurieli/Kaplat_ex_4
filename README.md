@@ -68,7 +68,10 @@ function writeToLogFile(logFileName, logMessage) {
   });
 }
 ```
+Here's an example of how it should look like in the requests.log file: <br>
+
+<img width="519" alt="image" src="https://github.com/orinurieli/Kaplat_ex_4/assets/74871538/197a7657-afd6-4928-b3de-475bec1b7863">
 
 
+##### Made by [Ori Nurieli](https://github.com/orinurieli)  
 
-![image](https://github.com/orinurieli/Kaplat_ex_4/assets/74871538/5bdaf878-b38e-47ba-a5ea-950e2f33fc9a)
