@@ -49,7 +49,25 @@ function requestLogger(req, res, next) {
   next();
 }
 ```
+We use the writeToLogFile function:
+```javascript
+// Function to write logs to a file
+function writeToLogFile(logFileName, logMessage) {
+  if (!logFileName) {
+    const timestamp = new Date().getTime();
+    logFileName = `log_${timestamp}.txt`;
+  }
 
+  const logFilePath = path.join(logsFolder, logFileName);
+  const logLine = `${new Date().toLocaleString()} ${logMessage}\n`;
+
+  fs.appendFile(logFilePath, logLine, (err) => {
+    if (err) {
+      console.error(`Error writing to log file: ${err}`);
+    }
+  });
+}
+```
 
 
 
