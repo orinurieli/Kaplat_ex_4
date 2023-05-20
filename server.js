@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 // ! use CORS if the port of the client is different from the server.
-// const cors = require('cors');
+const cors = require('cors');
 
 const app = express();
 const port = 9583;
