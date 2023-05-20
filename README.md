@@ -15,3 +15,5 @@ To initialize the project, follow these steps:
 
 3. Open a new terminal window and run the following command: <br>
 `npm start` <br>
+
+![image](https://github.com/orinurieli/Kaplat_ex_4/assets/74871538/5bdaf878-b38e-47ba-a5ea-950e2f33fc9a)
